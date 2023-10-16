@@ -44,4 +44,7 @@
     </string>
     <string name="terimakasih">Terima kasih atas laporan Anda yang telah kami terima \npada tanggal 23 Agustus 2023, terk ...</string>
     <string name="terimalaporan">Terima Laporan: 23 Agustus 2023 , 19.00 WIB \nPelapor: Nur Rahman ...</string>
+    <string name="ktp">Layanan Pembuatan KTP kami: Kemudahan, Tanpa \nBirokrasi, Tanpa Kunjungan Fisik.</string>
+    <string name="isi_nik">Isi NIK sesuai dengan yang tertera pada Kartu Keluarga.</string>
+    <string name="isi_nama">Isi Nama sesuai dengan yang tertera pada Kartu Keluarga.</string>
 </resources>

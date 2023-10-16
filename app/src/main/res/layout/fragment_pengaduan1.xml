@@ -201,6 +201,7 @@
         android:fontFamily="@font/nunitosans_medium"
         android:hint="Unggah Media"
         android:paddingLeft="20dp"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
