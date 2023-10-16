@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_beranda"
+        android:title="Beranda"
+        android:fontFamily="@font/nunitosans_medium"
+        android:icon="@drawable/baseline_home_24"
+        android:iconTint="@color/green" />
+    <item
+        android:id="@+id/nav_layanan"
+        android:title="Layanan"
+        android:fontFamily="@font/nunitosans_medium"
+        android:icon="@drawable/round_library_books_24"
+        android:iconTint="@color/green"/>
+    <item
+        android:id="@+id/nav_forum"
+        android:title="Forum"
+        android:fontFamily="@font/nunitosans_medium"
+        android:icon="@drawable/baseline_forum_24"
+        android:iconTint="@color/green"/>
+    <item
+        android:id="@+id/nav_akun"
+        android:title="Akun"
+        android:fontFamily="@font/nunitosans_medium"
+        android:icon="@drawable/round_person_24"
+        android:iconTint="@color/green"/>
+
+</menu>
