@@ -47,4 +47,25 @@
     <string name="ktp">Layanan Pembuatan KTP kami: Kemudahan, Tanpa \nBirokrasi, Tanpa Kunjungan Fisik.</string>
     <string name="isi_nik">Isi NIK sesuai dengan yang tertera pada Kartu Keluarga.</string>
     <string name="isi_nama">Isi Nama sesuai dengan yang tertera pada Kartu Keluarga.</string>
+    <string name="laporanwarga">Terima Laporan: 23 Agustus 2023, 19.00 WIB
+        \nPelapor: Fulan Abdul Salam
+        \n\nPerihal: Penerangan lampu umum
+        \nSaya ingin mengajukan keluhan terkait penerangan lampu umum di beberapa wilayah desa. Beberapa lampu penerangan jalan umum tampaknya tidak berfungsi dengan baik, dan ini telah menciptakan situasi yang kurang aman dan tidak nyaman bagi penduduk setempat.
+        \n\nBeberapa lampu tidak menyala sama sekali, sementara yang lainnya berkedip-kedip atau terangnya sangat redup. Ini telah mengakibatkan:
+        \n\n1. Kurangnya Keamanan
+        \n2. Tingkat Kecelakaan yang Lebih Tinggi
+        \n3. Ketidaknyamanan.
+        \n\nDalam rangka meningkatkan situasi ini dan memastikan kembali penerangan lampu umum yang memadai, saya mengajukan permintaan berikut:
+        \n\n1. Pemeriksaan dan Perbaikan Cepat
+        \n2. Perluasan Penerangan
+        \n3. Komunikasi Publik
+        \n\nTerima kasih atas perhatian Anda terhadap masalah ini, dan kami berharap untuk melihat perbaikan segera.
+    </string>
+
+    <string name="bls_warga">Saya kemarin lewat arah sini sangat gelap sekali, aduan yang mewakili </string>
+    <string name="bls_warga2">Semoga segera diperbaiki pak kades...</string>
+    <string name="bls_warga3">kemarin baru saja ada kecelakaan di sana, karena gelap</string>
+    <string name="bls_warga4">semoga segera diperbaiki ya</string>
+    <string name="bls_warga5">Kerja hebat pakk... penanganan cepat. Sangat membantu warga desa </string>
+    <string name="bls_warga6">Betul.... penanganannya cepat sekali</string>
 </resources>
