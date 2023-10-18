@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentDetailTunggu">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunitosans_medium"
+        android:text="Detail Status"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="56dp"
+        android:text="Keterangan: Pemerikasaan Kelengkapan"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        android:text="Data anda saat ini dalam tahap pemeriksaan oleh petugas"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+    <TextView
+        android:id="@+id/tv_title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="24dp"
+        android:text="Keterangan: Pemerikasaan Kelengkapan"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_keterangan" />
+
+    <TextView
+        android:id="@+id/tv_keterangan2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        android:text="Data anda saat ini dalam tahap pemeriksaan oleh petugas"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title2" />
+
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="24dp"
+        android:background="#F5F5F5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_keterangan2" />
+
+    <TextView
+        android:id="@+id/tv_title3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="24dp"
+        android:text="Data dan Dokumen Anda"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+    <TextView
+        android:id="@+id/tv_waktu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        android:text="Diajukan pada: 13 Agustus 2023"
+        android:textColor="@color/dark_grey"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title3" />
+
+    <TextView
+        android:id="@+id/tv_title4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="24dp"
+        android:text="Tipe Pembuatan"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_waktu" />
+
+    <EditText
+        android:id="@+id/Tipe"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:text="Pembuatan Baru"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textSize="14sp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/border_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title4" />
+
+    <TextView
+        android:id="@+id/tv_title5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="24dp"
+        android:text="Datamu"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Tipe" />
+
+    <EditText
+        android:id="@+id/nik"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:text="3273269200137482"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textSize="14sp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/border_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title5" />
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:text="Fulan Abdul Salam"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textSize="14sp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/border_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nik" />
+
+    <TextView
+        android:id="@+id/tv_pas_poto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/nunitosans_semibold"
+        android:text="Pas Foto"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nama" />
+
+    <EditText
+        android:id="@+id/edt_input_poto"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/border_text"
+        android:fontFamily="@font/nunitosans_semibold"
+        android:gravity="bottom"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:text="pas-photo.png"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pas_poto" />
+
+    <ImageView
+        android:layout_width="345dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/pas_poto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pas_poto" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
